@@ -1,0 +1,189 @@
+.bg-image{
+    /* background-image: url("../images/bg-images/car.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 100px; */
+    background: url("../images/bg-images/car.jpg") repeat fixed;
+}
+
+@media only screen and (max-width: 1000px) {
+    .bg-image{
+        background: red !important;
+    }
+}
+
+
+.bg-image .content{
+    height: fit-content;
+    color: red;
+    background-color: #fff;
+    border: 5px solid red;
+    border-radius: 10px;
+    /* margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px; */
+    margin: 50px 50px 50px 50px ;
+    padding: 50px;
+    max-width: 100%;
+    min-width: 200px;
+    /* border-top-color: aqua;
+    border-right-color: #ffccdd;
+    border-top-width: 20px;
+    border-right-width: 50px;
+    border-top-style: dashed;
+    border-right-style: solid;
+    border-right: 20px solid #ffccdd; */
+}
+
+.bg-image .content .hello{
+    color: #fff;
+    /* height: 300px;
+    max-width: 300px; */
+}
+.bg-image .content h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.bg-image .content .text{
+    color: blueviolet;
+    text-align: center;
+    text-transform: lowercase;
+    text-indent: 20px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    word-spacing: 50px;
+    white-space: normal;
+}
+
+
+.bg-image .content .text a{
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+.custom-btn{
+    text-decoration: none;
+    border: 1px solid green;
+    padding: 10px;
+    background-color: transparent;
+    color: green;
+}
+
+.list{
+    /* list-style: none; */
+    display: flex;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+/* .table-wrapper{
+    width: 700px;
+    overflow-x: auto;
+
+} */
+
+/* .table{
+    border: 1px solid green;
+    border-collapse: collapse;
+    overflow-x: auto;
+    height: 200px;
+}
+
+.table .img{
+    width: 300px;
+    height: 300px;
+}
+
+.table td, .table th{
+    border: 1px solid green;
+    border-collapse: collapse;
+    padding: 10px 20px;
+}
+
+.table thead tr{
+    background-color: green;
+    color: #fff;
+}
+
+.table thead tr th{
+    border-right-color: #fff;
+}
+
+td p{
+    width: 300px;
+    height: 200px;
+} */
+
+a:link{
+    color: green;
+}
+a:visited{
+    color: red;
+    /* background-color: black; */
+}
+
+a:hover{
+    color: #fff;
+    background-color: aqua;
+}
+
+.hover-effect{
+    height: 50px;
+    width: 200px;
+    background-color: aqua;
+    color: yellow;
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.hover-tag:hover{
+    text-decoration: none;
+
+}
+
+.hover-tag:hover .hover-effect{
+    display: block;
+}
+
+.element{
+    width: 500px;
+}
+
+.element::selection{
+    background-color: blueviolet;
+    color: yellow;
+}
+
+.element::first-line{
+    color: blue;
+}
+
+.element::first-letter{
+    font-size: xx-large;
+    color: green;
+}
+
+.list li::marker{
+    color: aqua;
+    font-size: xx-large;
+}
+
+.list li::after{
+   content: '';
+   height: 2px;
+   width: 10px;
+   background-color: black;
+   display: inline-block; 
+}
+
+.list li::before{
+    content: '';
+    height: 2px;
+    width: 10px;
+    background-color: red;
+    display: inline-block; 
+ }

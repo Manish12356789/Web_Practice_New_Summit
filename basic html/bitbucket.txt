@@ -1,0 +1,5 @@
+git clone git@bitbucket.org:manish123parajuli/demo.git
+git clone https://manish123parajuli@bitbucket.org/manish123parajuli/demo.git
+
+git clone git@bitbucket.org:mesujan28/japanese.git
+git clone https://mesujan28@bitbucket.org/mesujan28/japanese.git
