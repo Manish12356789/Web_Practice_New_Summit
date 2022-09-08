@@ -9,7 +9,7 @@
     <title>Bootstrap Practice</title>
 </head>
 <body>
-    <div class="container-fluid">.container-fluid</div>
+    <section id="basic-stuff">
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-sm-6 bg-success">
@@ -22,7 +22,231 @@
                 <p class="text-muted">bg sucess color info</p>
             </div>
         </div>
+        <div class="row">
+            <!-- <div class="col-12 text-center">
+                <img class="img-fluid rounded m-2 " src="images/index.jpg" alt="index">
+            </div> -->
+            <div class="col-12">
+                <img class="img-fluid rounded m-2 float-end" src="images/index.jpg" alt="index">
+            </div>
+        </div>
     </div>
+</section>
+
+<section id="table">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="section-title text-center bg-light text-success border border-success">Table Practice</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <table class="table table-bordered border-success table-primary table-hover table-striped">
+                    <thead>
+                      <tr>
+                        <th >#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td colspan="2">Larry the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">6</th>
+                        <td colspan="2">Larry the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+            <div class="col-md-4">
+                <table class="table table-dark table-hover table-striped">
+                    <thead>
+                      <tr>
+                        <th >#</th>
+                        <th >First</th>
+                        <th >Last</th>
+                        <th >Handle</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td colspan="2">Larry the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">6</th>
+                        <td colspan="2">Larry the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+            <div class="col-md-4">
+                <div class="table-responsive">
+                <table class="table table-sm table-dark table-hover table-striped">
+                    <thead>
+                      <tr>
+                        <th >#</th>
+                        <th >First</th>
+                        <th >Last</th>
+                        <th >Handle</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td colspan="2">Larry the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">6</th>
+                        <td colspan="2">Larry the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="card">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <figure class="figure">
+                    <img src="images/2.jpg" class="figure-img img-fluid rounded" alt="img">
+                    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4">
+                <figure class="figure">
+                    <img src="images/index.jpg" class="figure-img img-fluid rounded" alt="img">
+                    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4">
+                <figure class="figure">
+                    <img src="images/3.jpg" class="figure-img img-fluid rounded" alt="img">
+                    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="form">
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <form action="#" method="POST/GET">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <label for="fname" class="form-label">Full Name</label>
+                            <input class="form-control" type="text" class="hello" id="fname" readonly name="fname" value="hello there" required placeholder="Type Text"/>
+                        </div>
+                        <div class="col-lg-6">
+                            <label for="email" class="form-label" >Email</label>
+                            <input class="form-control" type="email" id="email" placeholder="Email" required>
+                        </div>
+                    </div>
+        
+                    <label class="form-label">Faculty</label>
+                    <select class="form-select" name="course">
+                        <option value="bca">BCA</option>
+                        <option selected value="bit">BIT</option>
+                        <option value="csit">CSIT</option>
+                    </select>
+                    
+                    <label class="form-label">Remarks</label>
+                    <textarea name="remarks" class="form-control" rows="5" cols="20">hello</textarea>
+        
+                    <input class="btn btn-success" type="submit" value="submit">
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
 
     <!--Js Here-->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>

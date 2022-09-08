@@ -1,22 +1,42 @@
 .container-fluid{
     background-color: red;
-    height: 500px;
+    /* height: 500px; */
     margin-bottom: 50px;
     margin-top: 50px;
 }
 
-.container{
+#basic-stuff .container{
     background-color: rgb(11, 240, 91);
-    height: 500px;
+    /* height: 500px; */
 }
 
-.row{
+#basic-stuff .row{
     background-color: rgb(7, 51, 109);
 }
 
-.col1{
+#basic-stuff .col1{
     background-color: rgb(123, 169, 30);
 }
-.col2{
+#basic-stuff .col2{
     background-color: rgb(39, 159, 26);
+}
+
+#table .section-title{
+    /* border: 1px solid red; */
+    /* background-color: rgba(75, 155, 60, 0.5); */
+    color: #fff;
+    font-weight: 800;
+}
+
+.table-responsive .table th{
+    min-width: 100px;
+}
+
+#card .figure{
+    width: 100%;
+}
+
+#card .figure .figure-img{
+    height: 237px;
+    width: 100%;
 }
